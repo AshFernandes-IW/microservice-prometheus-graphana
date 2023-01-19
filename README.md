@@ -10,7 +10,7 @@
 - Enter ``docker-compose up --build`` in the terminal of the same directory. This build might take a few minutes to complete.
 - Enter ``http://localhost:8002/`` in your web browser to access the **Kong Manager** dashboard. Scroll down and create a new workpsace by clicking on **default**.
 - We will now set up the **plugins**, **services** and **routes** which can be located in the left-hand navigation panel. 
-- Click **Install Plugin** and search for *Prometheus*. Tick all the boxes located under **Tags** before clicking **Install**.
+- Click **Install Plugin** and search for *Prometheus*. Tick all the boxes located under *Tags* before clicking **Install**.
 
 Ensure the output is as follows, matching each service with its respective route name:
 
