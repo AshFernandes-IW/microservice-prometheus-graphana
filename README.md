@@ -21,7 +21,7 @@ Ensure the output is as follows, matching each service with its respective route
 
 ### Configuring Grafana Dashboard
 - Open your web browser and enter ``localhost:3000`` to access the Grafana dashboard.
-- You will be greeted with a login screen, enter the username and password you created within ght ``docker-compose.yml`` file.
+- You will be greeted with a login screen, enter the username and password you created within the ``docker-compose.yml`` file.
 
 ### Database Confirmation with pgAdmin4
 - Open pgAdmin4 and click **Add New Server**. We will call our server ``gateway-microservice``. In the **Connection** tab, set the host name/address to ``localhost`` before entering the correct username and password as found in our ``docker-compose.yml`` file under *services > db > environment*. Click **Save**.
