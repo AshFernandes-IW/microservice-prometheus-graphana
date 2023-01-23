@@ -25,6 +25,8 @@ Ensure the output is as follows, matching each service with its respective route
 - Once directed to the home page, click on ``Add your first data source`` and select Prometheus. We'll set the URL to **localhost:9090** before selecting ``Save and test``. To confirm that things are running correctly, a green banner on the lower-half of the screen will display ``Data source is working``.
 - On the left-hand navigation panel, click on ``+ Import`` which is located under the **Dashboards** tab.
 - We will upload ``dashboard.JSON``, this can be found in the prometheus folder of our directory.
+- Go back and select the same data source we just created before clicking ``Import``.
+- We will repeat the process but this time upload ``kong-dashboard.json`` (located under same folder of directory) and this lets us monitor our Kong APIs.
 
 ### Database Confirmation with pgAdmin4
 - Open pgAdmin4 and click **Add New Server**. We will call our server ``gateway-microservice``. In the **Connection** tab, set the host name/address to ``localhost`` before entering the correct username and password as found in our ``docker-compose.yml`` file under *services > db > environment*. Click **Save**.
